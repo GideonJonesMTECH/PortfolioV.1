@@ -1,3 +1,12 @@
+main {
+  padding: 20px;
+  background-image: url("../Images/double-bubble-outline\ copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .FeaturesImage {
   position: relative;
   width: 350px;
@@ -46,8 +55,4 @@
   flex-wrap: wrap;
   min-height: 100%;
   text-align: center;
-}
-
-main {
-  margin: 20px;
 }
