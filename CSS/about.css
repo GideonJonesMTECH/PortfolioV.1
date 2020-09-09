@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 100%;
+  padding: 25px;
+}
+.Features {
+  display: flex;
+  align-items: center;
+}
+
+.About {
+  padding: 15px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+main a {
+  padding: 0;
+}
+.images {
+  max-width: 300px;
+  width: 300%;
+  flex-grow: 2;
+}
+
+.images img {
+  max-width: initial;
+  height: 300px;
+}

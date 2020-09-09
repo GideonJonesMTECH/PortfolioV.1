@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 100%;
+  padding: 25px;
+}
+
+main p {
+  font-size: 1.5em;
+}
+main a {
+  padding: 0;
+}

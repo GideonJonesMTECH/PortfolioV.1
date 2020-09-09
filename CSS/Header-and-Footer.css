@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("../Images/OuterSpaceHeader.jpeg");
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: darkgoldenrod;
+  padding: 10px;
+  font-size: 24px;
+  transition: 0.2s ease;
+  border: none;
+}
+
+a:hover {
+  color: silver;
+  border-top: silver solid 2px;
+}
+
+footer {
+  display: block;
+  padding: 70px 0px;
+  box-sizing: border-box;
+  align-items: center;
+  background-image: url("../Images/cosmos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  width: 100vw;
+  bottom: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.LogoImg {
+  width: 150px;
+}
